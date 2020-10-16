@@ -9,6 +9,7 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -17,6 +18,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.lezurex.ap20bklassenportal.PreloadActivity;
 import com.lezurex.ap20bklassenportal.R;
 import com.lezurex.ap20bklassenportal.Utils;
+
+import org.apache.commons.lang3.StringEscapeUtils;
 
 import java.util.ArrayList;
 
@@ -78,7 +81,8 @@ public class TaskActivity extends AppCompatActivity {
         }
 
         webView.setBackgroundColor(Color.TRANSPARENT);
-        webView.loadData(task.getDescripion().replaceAll("\n", "<br>") + style, "text/html; charset=utf8", "UTF-8");
+        String html = StringEscapeUtils.unescapeJson(task.getDescripion().replaceAll("\n", "<br>")) + style;
+        webView.loadDataWithBaseURL("localhost", html, "text/html; charset=utf8", "UTF-8", "");
     }
 
 }
