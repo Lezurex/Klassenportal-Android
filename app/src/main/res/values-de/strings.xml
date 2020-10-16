@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AP20b Klassenportal</string>
+    <string name="ico_book">Buch</string>
+    <string name="ico_calendar">Kalender</string>
+    <string name="ico_arrow_right">rechter Pfeil</string>
+    <string name="img_logo">Logo</string>
+    <string name="preload_credit">Entwickelt von Lezurex</string>
+    <string name="tasks_tasks">Aufgaben und Prüfungen</string>
+    <string name="tasks_time_at">um</string>
+    <string name="tasks_date_format">d. M. y</string>
+    <string name="tasks_time_format">HH:mm</string>
+    <string name="ico_back">zurück</string>
+    <string name="task_subject">Fach:</string>
+    <string name="task_description">Beschreibung:</string>
+    <string name="task_date">Fällig am:</string>
+    <string name="ico_refresh">neu laden</string>
+    <string name="login_title">Einloggen</string>
+    <string name="login_email_hint">E-Mail</string>
+    <string name="login_password_hint">Passwort</string>
+    <string name="login_loginbtn">Einloggen</string>
+    <string name="err_no_internet">Keine Internetverbindung!</string>
+    <string name="pop_logout_title">Ausloggen</string>
+    <string name="pop_logout_desc">Möchtest du dich wirklich abmelden?</string>
+    <string name="pop_logout_positive">Ausloggen</string>
+    <string name="pop_logout_negative">Schliessen</string>
+    <string name="login_not_filled">Dieses Feld muss ausgefüllt sein</string>
+    <string name="err_not_permitted">Dein Account wurde (noch) nicht freigeschaltet. Bitte versuche es später nochmals.</string>
+    <string name="err_invalid_credentials">Diese Anmeldedaten sind ungültig.</string>
+    <string name="err_login_other">Ein unbekannter Fehler ist aufgetreten. Bitte versuche es später noch einmal.</string>
+</resources>

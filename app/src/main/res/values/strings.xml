@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AP20b Class Portal</string>
+    <string name="ico_book">book</string>
+    <string name="ico_calendar">calendar</string>
+    <string name="ico_arrow_right">right arrow</string>
+    <string name="img_logo">logo</string>
+    <string name="preload_credit">Developed by Lezurex</string>
+    <string name="tasks_tasks">Tasks and Tests</string>
+    <string name="tasks_time_at">at</string>
+    <string name="tasks_date_format">M/d/y</string>
+    <string name="tasks_time_format">HH:mm</string>
+    <string name="ico_back">back</string>
+    <string name="task_subject">Subject:</string>
+    <string name="task_description">Description:</string>
+    <string name="task_date">Due on:</string>
+    <string name="ico_refresh">refresh</string>
+    <string name="login_title">Sign In</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_loginbtn">Sign In</string>
+    <string name="err_no_internet">No connection to the internet!</string>
+    <string name="pop_logout_title">Logout</string>
+    <string name="pop_logout_desc">Do you really want to log out?</string>
+    <string name="pop_logout_positive">Logout</string>
+    <string name="pop_logout_negative">Dismiss</string>
+    <string name="login_not_filled">This field must be filled out</string>
+    <string name="err_not_permitted">Your account hasn\'t (yet) been activated. Please try again later.</string>
+    <string name="err_invalid_credentials">The provided credentials are invalid.</string>
+    <string name="err_login_other">An unknown error occured. Please try again later.</string>
+</resources>
