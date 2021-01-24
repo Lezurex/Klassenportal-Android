@@ -73,7 +73,7 @@ public class TaskActivity extends AppCompatActivity {
 
         switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) {
             case Configuration.UI_MODE_NIGHT_YES:
-                style = "<style>html { color: white; font-family: Roboto;}</style>";
+                style = "<style>html { filter: invert(1) hue-rotate(180deg); font-family: Roboto;} img { filter: invert(1) hue-rotate(180deg); }</style>";
                 break;
             case Configuration.UI_MODE_NIGHT_NO:
                 style = "<style>html { color: black; font-family: Roboto; }</style>";
